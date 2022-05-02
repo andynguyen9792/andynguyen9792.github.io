@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+@font-face {
+	font-family: 'Conv_SVN-Gilroy Regular';
+	src: url('fonts/SVN-Gilroy Regular.eot');
+	src: local('☺'), url('fonts/SVN-Gilroy Regular.woff') format('woff'), url('fonts/SVN-Gilroy Regular.ttf') format('truetype'), url('fonts/SVN-Gilroy Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.img-100{width:100%; height: auto}
+.img-50{width:50%; height: auto}
+body{ /* định dang cho trang web*/
+            background-color:#E2E0E0; 
+			color:#333333;
+			font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; 
+			font-size: 18px}
+a{ color: #fff}
+a:hover{ color: aqua}
+		h1 a{color:#001D1A; text-decoration: none}/*ddang cho lien ket trong h1*/
+		h1 a:hover{ color: #ff0000}
+        h2 a{color: #00066F; font-size: 40px; text-decoration: none}/*ddang cho lien ket trong h1*/
+		h2 a:hover{ color: #780002} 
+        ul li{ list-style-image: url('images/bullet-muiten.gif'); color: #3A3A3A}
+        ol li{color: #074836; font-weight: bold; padding: 10px}
+		li a{color:tomato; text-decoration: none}
+		li a:hover{ text-decoration:underline; color: #ff0}
+.container{ width: 70%; margin: auto}
+.container2{ width: 100%; margin: auto; background: #C9F1FF ; min-height: 700px; border-radius:10px}
+/*.menu{ display: flex; justify-content:flex-start; flex-wrap: nowrap; }*/
+.menu a{ background: #8E0A0C; color: #FFFFFF; padding: 10px 15px; text-decoration: none}
+.menu a:hover{ background: #00066F}
+.menu .bth-dangky{background: #FFDE00; color: #FFFFFF; padding: 10px 15px; text-decoration: none; border-radius: 15px }
+.menu .bth-dangky:hover{ background: #9C7500; color: #FFF2C0}
+.bt-xemthem{ border: 1px solid #FFD000; padding: 5px 15px; border-radius: 15px; text-decoration: none}
+.bt-xemthem:hover{ background: #F8A600; color: #130E00}
+.logo{ Float: center; padding: 15px}
+.w-50{ width: 50%; float: left; padding: 15px}
+.w-25{ width: 25%; float: left; padding: 15px; margin: 15px}
+.w-30{width: 30%; float: left; padding: 15px}
+.w-70{width: 70%; float: left; padding: 15px}
+.w-100{width: 100%; float: left; padding: 15px}
+.w-100-center{width: 100%; float: center; padding: 15px 0px }
+.clearfix{ clear: both; height:0 }
+.bg-xanh50{ background-color: rgba(144,0,2,1.00)}
+.bg-hong50{background-color: rgba(251,5,157,.5)}
+.bg-trongsuot{background-color: rgba(251,5,157,0.00)}
+.bg-trangnhat{background-color: rgba(255,250,218,1.00)}
+.bg-nau{background-color: rgba(134,98,34,1.00)}	
+ul.nd li{ margin: 20px; list-style-image: url("../images/bullet-muiten.gif"); color: #150707}
+.text-center{ text-align: center}
+.text-right{ text-align: right}
+.d-flex{ display: flex}
+.align-items-center{ align-items: center} 
+.align-items-start{ align-items: start}
+.justify-content-center{ justify-content: center}
+.justify-content-between{ justify-content: space-between} 
+.justify-content-arround{ justify-content:space-around} 
+.row-reverse{ flex-direction: row-reverse}
+.col-reverse{ flex-direction: column-reverse}
+.flex-col{ flex-direction: column}
+.bogoc10{ border-radius: 10px}
+.bogoccheo100{ border-radius: 100px 0px 100px 0px; padding: 50px}
+.form-control{
+padding: 15px;
+width: 100%;
+border: 1px solid #f00;
+border-radius: 15px}
+.date-control{
+padding: 15px;
+width: 50%;
+border: 1px solid #f00;
+border-radius: 15px; margin: 20px}
+.bt-xemthem{ border: 1px solid #FFD000; padding: 5px 15px; border-radius: 15px; text-decoration: none}
+.bt-xemthem:hover{ background: #F8A600; color: #130E00}
+.p-50{ padding: 50px}
+.p-20{ padding: 20px}
+.p-tb{padding: 20px 0px}
+.footer{color: #FFFFFF}
+.margin{ margin: 20px}
+.bt-dangkingay{border: 2px solid #860002; background-color: #6A0001 ;padding: 5px 15px; border-radius: 5px; text-decoration: none}
+.bt-dangkingay:hover{ background: #FCFCFC; color: #000000}
+
